@@ -16,3 +16,7 @@ str[i] == ' '，单引号不是双
 栈秒了
 006–重建二叉树
 注意索引
+vector<int> leftPreOrder(preOrder.begin() + 1, preOrder.begin()  + 1 + leftLen);
+vector<int> leftVinOrder(vinOrder.begin() , vinOrder.begin() + leftLen);
+vector<int> rightPreOrder(preOrder.begin() + leftLen + 1, preOrder.end());
+vector<int> rightVinOrder(vinOrder.begin() + 1 + leftLen, vinOrder.end());
