@@ -1,25 +1,12 @@
 题目总览：https://blog.csdn.net/gatieme/article/details/51916802
 
-周一-12月18日：
+12月18日：
 003–二维数组中的查找：
-从左上角开始的话不行，因为比它大的数右边下边都有。
-从右上角的话就可以，因为比它大的数在下边，比它小的数在左边。控制边界就ok。
 
-
-周二-12月19日：
+12月19日：
 004–替换空格
-str[i] == ' '，单引号不是双
-问：针对char *str ，能用str[i]表示
-问：针对char *str，没用长度限制，题目给的len，但是str[len + n],比len大 也可以定位。
-双指针挪动
 005–从尾到头打印链表
-栈秒了
 006–重建二叉树
-注意索引
-vector<int> leftPreOrder(preOrder.begin() + 1, preOrder.begin()  + 1 + leftLen);
-vector<int> leftVinOrder(vinOrder.begin() , vinOrder.begin() + leftLen);
-vector<int> rightPreOrder(preOrder.begin() + leftLen + 1, preOrder.end());
-vector<int> rightVinOrder(vinOrder.begin() + 1 + leftLen, vinOrder.end());
 
 1月5日：
 二叉树路径之和
