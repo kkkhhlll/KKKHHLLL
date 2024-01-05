@@ -20,3 +20,6 @@ vector<int> leftPreOrder(preOrder.begin() + 1, preOrder.begin()  + 1 + leftLen);
 vector<int> leftVinOrder(vinOrder.begin() , vinOrder.begin() + leftLen);
 vector<int> rightPreOrder(preOrder.begin() + leftLen + 1, preOrder.end());
 vector<int> rightVinOrder(vinOrder.begin() + 1 + leftLen, vinOrder.end());
+
+1月5日：
+二叉树路径之和
