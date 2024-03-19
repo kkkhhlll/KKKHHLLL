@@ -33,10 +33,35 @@ StringBuilder:StringBuilder sb = new StringBuilder("Hello");
     int[] copy = Arrays.copyOf(source, source.length); // 使用 Arrays.copyOf() 方法拷贝数组
 
 
+ACM读取数据：
+    Scanner scanner = new Scanner(System.in);
 
+    //读取一个数字
+    int num1 = scanner.nextInt();
 
+    //读取知道个数的数字到数组里
+    int[] array = new int[5];
+    for (int i = 0; i < array.length; i++) {
+        array[i] = scanner.nextInt();
+    }
 
+    
+    //    2
+    //    2 3 42 23
+    //    3
 
+    int num1 = scanner.nextInt();
+
+    String secondLine = scanner.nextLine(); // 先读取换行符
+    secondLine = scanner.nextLine(); // 读取第二行数字
+
+    String[] numbers = secondLine.split(" ");
+    int[] array = new int[numbers.length];
+    for (int i = 0; i < numbers.length; i++) {
+        array[i] = Integer.parseInt(numbers[i]);
+    }
+
+    int num2 = scanner.nextInt();
 
 
 
