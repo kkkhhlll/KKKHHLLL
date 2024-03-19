@@ -15,6 +15,8 @@ StringBuilder:StringBuilder sb = new StringBuilder("Hello");
     sb.delete(6, 11); // 删除索引 6 到 10 之间的字符，结果为 "Hello"
     "Hello World" -> sb.replace(6, 11, "Java"); // 替换索引 6 到 10 之间的字符为 "Java"，结果为 "Hello Java"
     "Hello" -> sb.reverse(); // 结果为 "olleH"
-    
+    int len = sb.length();
+
+
 
 
