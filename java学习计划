@@ -15,3 +15,6 @@ MVCC:看这个能明白
             https://www.bilibili.com/video/BV1hL411479T/?spm_id_from=333.337.search-card.all.click&vd_source=27d502035caca5408ead9a735de7b9da
 HashMap扩容:
             https://www.bilibili.com/video/BV14r4y1R7e6/?spm_id_from=333.337.search-card.all.click&vd_source=27d502035caca5408ead9a735de7b9da
+ConcurrentHashMap如何保证并发线程安全
+            https://www.bilibili.com/video/BV1rp4y1P7ci/?spm_id_from=333.788&vd_source=27d502035caca5408ead9a735de7b9da
+            分1.7和1.8
