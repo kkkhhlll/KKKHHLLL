@@ -17,6 +17,41 @@ StringBuilder:StringBuilder sb = new StringBuilder("Hello");
     "Hello" -> sb.reverse(); // 结果为 "olleH"
     int len = sb.length();
 
+数组：
+    int[] array = new int[5]; // 创建一个包含 5 个整数的数组
+    String[] names = new String[3]; // 创建一个包含 3 个字符串的数组
+    int[] array = {1, 2, 3, 4, 5};
+    int length = array.length; // 获取数组的长度，length 现在是 5    
+    int[] array = {1, 2, 3, 4, 5};
+    int firstElement = array[0]; // 获取第一个元素，firstElement 现在是 1
+    int lastElement = array[array.length - 1]; // 获取最后一个元素，lastElement 现在是 5
+    Arrays.sort(array); // 对数组进行升序排序
+
+    int[] source = {1, 2, 3, 4, 5};
+    int[] target = new int[source.length];
+    System.arraycopy(source, 0, target, 0, source.length); // 使用 System.arraycopy() 方法拷贝数组
+    int[] copy = Arrays.copyOf(source, source.length); // 使用 Arrays.copyOf() 方法拷贝数组
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
