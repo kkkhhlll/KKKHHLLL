@@ -3,4 +3,18 @@ String:
     int len = str.length();
 
     String str = "Hello";
-    String substr = str.substring(2); // substr 现在是 "llo"
+        String substr = str.substring(2); // substr 现在是 "llo"
+        String substr = str.substring(1, 4); // substr 现在是 "ell"
+        int index = str.indexOf("l"); // index 现在是 2
+        int lastIndex = str.lastIndexOf("l"); // lastIndex 现在是 3\
+    char[] charArray = s.toCharArray();
+
+StringBuilder:StringBuilder sb = new StringBuilder("Hello");
+    StringBuilder sb = new StringBuilder("Hello");
+    sb.insert(5, " World"); // 在索引 5 处插入字符串 " World"  -> "Hello World"
+    sb.delete(6, 11); // 删除索引 6 到 10 之间的字符，结果为 "Hello"
+    "Hello World" -> sb.replace(6, 11, "Java"); // 替换索引 6 到 10 之间的字符为 "Java"，结果为 "Hello Java"
+    "Hello" -> sb.reverse(); // 结果为 "olleH"
+    
+
+
